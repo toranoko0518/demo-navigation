@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/main"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/ic_inbox"
+            android:title="@string/nav_inbox" />
+        <item
+            android:id="@+id/nav_outbox"
+            android:icon="@drawable/ic_outbox"
+            android:title="@string/nav_outbox" />
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite"
+            android:title="@string/nav_favorite" />
+        <item
+            android:id="@+id/nav_archive"
+            android:icon="@drawable/ic_archive"
+            android:title="@string/nav_archive" />
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_trash"
+            android:title="@string/nav_trash" />
+        <item
+            android:id="@+id/nav_spam"
+            android:icon="@drawable/ic_spam"
+            android:title="@string/nav_spam" />
+    </group>
+    <group
+        android:id="@+id/label"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@drawable/ic_label"
+            android:title="@string/nav_family" />
+        <item
+            android:id="@+id/nav_work"
+            android:icon="@drawable/ic_label"
+            android:title="@string/nav_work" />
+    </group>
+    <group
+        android:id="@+id/setting"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/nav_setting" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/nav_info" />
+    </group>
+</menu>
